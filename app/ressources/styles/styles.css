@@ -1,0 +1,36 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar li:hover {
+    background-color: #eee6e6;
+    color: black;
+    cursor: pointer;
+}
+
+
+.clicked  {
+    background-color: #7e0707;
+    color: rgb(32, 8, 8);
+    
+}
+
+
